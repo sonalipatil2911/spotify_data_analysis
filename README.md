@@ -1,5 +1,7 @@
 # 🎵 Spotify Data Analysis
 
+<img src = "spotify_image.jpg"></img>
+
 This project explores a comprehensive dataset from Spotify, focusing on audio features and user engagement metrics across various tracks. Using Python and data visualization tools, we uncover patterns in music preferences, track characteristics, and listener behavior.
 
 ---
@@ -34,7 +36,10 @@ The dataset contains one table with the following columns:
 
 ## ⚙️ Tools & Technologies
 
-- **PostgreSQL**  
+- **Database: PostgreSQL**
+- **SQL Queries: DDL, DML, Aggregations, Joins, Subqueries, Window Functions**
+- **Tools: pgAdmin 4 (or any SQL editor), PostgreSQL (via Homebrew, Docker, or direct installation)**
+
 
 ## 📌 Key Insights
 
@@ -66,6 +71,12 @@ The dataset contains one table with the following columns:
 1. Clone the repository  
    `git clone https://github.com/your-username/spotify-data-analysis.git`
 
+  
+## How to Run the Project
+1. Install PostgreSQL and pgAdmin (if not already installed).
+2. Set up the database schema and tables using the provided normalization structure.
+3. Insert the sample data into the respective tables.
+4. Execute SQL queries to solve the problems.
 
 ## 📣 Contribute
 
